@@ -15,7 +15,7 @@ x = numbers[2];
 x = `My Favourite Fruit Is ${fruits[2]}`;
 x = `My Dream Vehical Is ${cars[0]}`;
 
-x= cars.length;
+x= cars.length; 
 
 cars[3] = 'nissan';
 cars[cars.length] = 'mustangs';
