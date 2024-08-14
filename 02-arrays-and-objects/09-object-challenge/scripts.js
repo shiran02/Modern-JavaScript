@@ -43,4 +43,24 @@ library[2].status.read = true;
 
 // step 3 --------------------------------
 
+// Rename title To firstBook //
+const {title : firstBook} = library[0];
 
+//console.log(firstBook);
+
+
+
+
+// step 4 --------------------------------
+
+// convert To Json -----------------------
+
+const libraryJson = JSON.stringify(library)
+
+
+console.log(libraryJson);
+
+//convert JSON In to Object --------------
+
+const obj = JSON.parse(libraryJson);
+console.log(obj);

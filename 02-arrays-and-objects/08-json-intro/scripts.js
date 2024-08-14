@@ -31,10 +31,10 @@ const posts = [
     }
 ]
 
-// convert Json string
+// convert object To  Json string
 const str2 = JSON.stringify(posts);
 
-// parse Json
+//onvert JSON In to Object
 const obj2 = JSON.parse(str2);
 
 
